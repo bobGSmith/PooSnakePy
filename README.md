@@ -13,7 +13,7 @@ The snake speeds up everytime you go up a level. The poos you do are cleared eve
 ## Screenshot 
 ```shell
  ]_______________________________________________[  
- ]       [POO-SNAKE] [poos 0] [level 1]          [  
+ ]       [POO-SNAKE] [poos 1] [level 1]          [  
  ]===============================================[  
  ]                                               [  
  ]                                               [  
