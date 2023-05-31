@@ -10,7 +10,7 @@ setup(
     license='MIT',
     packages=["PooSnake"],
     install_requires = [
-        "curses-windows"; os_name == "nt"
+        "curses-windows; os_name == 'nt'"
     ]
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
