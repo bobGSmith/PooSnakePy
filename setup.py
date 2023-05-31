@@ -20,4 +20,4 @@ setup(
 )
 
 __version__ = '1.0.0'
-__author__ 'Bob G Smith'
+__author__ = 'Bob G Smith'
