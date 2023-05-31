@@ -65,7 +65,7 @@ def set_up(h,w, key_pad = True, no_delay = True, cursor = False):
     curses.curs_set(cursor)
     return scr
 
-def get_direction(key, direction):
+def get_direction(key, direction,u = curses.KEY_UP, d = curses.KEY_DOWN, l = curses.KEY_LEFT,  r = curses.KEY_RIGHT):
     if key == l and direction != 'e':
         direction = 'w'
     elif key == r and direction != 'w':

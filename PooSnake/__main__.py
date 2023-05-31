@@ -13,7 +13,10 @@ while again == ord('y'):
     
     stdscr = curses.initscr()
     scr = set_up(h,w)
-    u = curses.KEY_UP; d = curses.KEY_DOWN; l = curses.KEY_LEFT;  r = curses.KEY_RIGHT
+    u = curses.KEY_UP 
+    d = curses.KEY_DOWN
+    l = curses.KEY_LEFT
+    r = curses.KEY_RIGHT
     
     
     head = [10,12]
@@ -35,7 +38,7 @@ while again == ord('y'):
         
         # user input
         key = scr.getch()
-        direction = get_direction(key, direction)
+        direction = get_direction(key, direction,u,d,l,r)
         
         # eating
         food, food_state, poos, prey, score_add, dead, body = eat(food, head, body,
