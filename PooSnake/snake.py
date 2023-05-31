@@ -233,9 +233,9 @@ if __name__ == '__main__':
                 scr.addstr((h//2),16,'OH FORGET IT !!')
                 scr.refresh()
                 time.sleep(2)
-
+                curses.endwin()
             
-
+    curses.endwin()
 
         
 

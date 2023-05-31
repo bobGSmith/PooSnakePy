@@ -115,6 +115,8 @@ while again == ord('y'):
             scr.addstr((h//2),16,'OH FORGET IT !!')
             scr.refresh()
             time.sleep(2)
+            curses.endwin() 
+    curses.endwin()
 
         
 
