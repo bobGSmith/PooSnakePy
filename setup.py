@@ -4,7 +4,7 @@ setup(
     name='PooSnake',
     version='1.0.0',
     description='play poosnake in terminal',
-    url='https://github.com/bobGSmith/CursedUi',
+    url='https://github.com/bobGSmith/PooSnakePy',
     author='Bob G Smith',
     author_email="bobbyatopk@gmail.com",
     license='MIT',
