@@ -119,7 +119,9 @@ def mv_body(body, head):
     return body     
     
 #=================# GAME SETUP #=================#
-def play ():
+
+if __name__ == '__main__': 
+        
     again = ord('y')
     h,w =  30,51 
     top_boarder = 2
@@ -233,6 +235,7 @@ def play ():
                 time.sleep(2)
 
             
- 
-    
+
+
         
+
