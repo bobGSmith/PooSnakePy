@@ -1,10 +1,18 @@
 # PooSnakePy
 This is the classic snake game except the snake does dumps, which you have to avoid. It runs in the terminal.
 
-## Dependencies 
-You need python and the windows curses package for python. 
-```shell
-pip install windows-curses
+## Install 
+
+```
+pip install git+https://github.com/bobGSmith/PooSnakePy@master
+```
+
+## Play 
+
+resize your terminal so its big enough to play (should happen automatically but doesnt seem to work on some), then run:
+
+```
+python3 -m PooSnake 
 ```
 
 ## Gameplay 
