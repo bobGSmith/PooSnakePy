@@ -119,7 +119,7 @@ def mv_body(body, head):
     return body     
     
 #=================# GAME SETUP #=================#
-def play ()
+def play ():
     again = ord('y')
     h,w =  30,51 
     top_boarder = 2
