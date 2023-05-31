@@ -78,7 +78,7 @@ def get_direction(key, direction,u = curses.KEY_UP, d = curses.KEY_DOWN, l = cur
         pass 
     return direction
 
-def boarder_setup(scr,h ,w, bottom_boarder, top_boarder, l_boarder, r_boarder, logo = 'BOBGAME', left = ']', right = '['):
+def boarder_setup(scr,h ,w, bottom_boarder, top_boarder, l_boarder, r_boarder, score,level,logo = 'BOBGAME', left = ']', right = '['):
     scr.clear()
     scr.addstr(1, (w//2)-16, '[POO-SNAKE] [poos {}] [level {}]'.format(score,level))
     scr.addstr(top_boarder,1,'='*(w-2))
@@ -170,7 +170,7 @@ if __name__ == '__main__':
                 break
             
             # display snake, food, boarder etc.. 
-            boarder_setup(scr, h ,w, bottom_boarder, top_boarder, l_boarder, r_boarder)
+            boarder_setup(scr, h ,w, bottom_boarder, top_boarder, l_boarder, r_boarder,score, level)
             display_snake(scr,head,body)
             display_food(scr,food,prey)
             display_poos(scr,poos)

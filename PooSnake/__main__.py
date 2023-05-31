@@ -52,7 +52,7 @@ while again == ord('y'):
             break
         
         # display snake, food, boarder etc.. 
-        boarder_setup(scr, h ,w, bottom_boarder, top_boarder, l_boarder, r_boarder)
+        boarder_setup(scr, h ,w, bottom_boarder, top_boarder, l_boarder, r_boarder,score,level)
         display_snake(scr,head,body)
         display_food(scr,food,prey)
         display_poos(scr,poos)
