@@ -1,4 +1,4 @@
-from poosnake.game import main
+from .game import main
 
 
 if __name__ == "__main__":

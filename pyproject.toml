@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poosnake"
+version = "0.1.0"
+description = "A terminal snake game where the snake does dumps you have to avoid."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "windows-curses>=2.3.0; platform_system == 'Windows'",
+]
+
+[project.scripts]
+poosnake = "poosnake.game:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
